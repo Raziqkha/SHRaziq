@@ -596,9 +596,9 @@ def pak():
 				if pcs in ['1','01']:
 					passlist = [psx,ids]
 				elif pcs in ['2','02']:
-					passlist = [psx,ids,'Afghan123, kabul123, kabul1234, kabul12345 , Khan123]
+					passlist = [psx,ids]
 				else:
-					passlist = [psx,ids,'khankhan','khan1122','Ali786','khan1234','Ali123','ali786','khan123','khan12345']
+					passlist = [psx,ids,]
 				if mthd in ['1','01']:
 					AXI.submit(rcrack1,ids,passlist)
 				else:
